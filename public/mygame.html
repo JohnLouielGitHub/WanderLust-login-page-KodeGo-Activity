@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pick Cup Win!</title>
+    <link rel="stylesheet" href="./../dist/main.css" />
+  </head>
+
+  <body class="bg-body">
+    <div id="coin-display-id" class="coin-display position-absolute">
+      <div
+        class="
+          coin-container
+          bg-light
+          border-2
+          rounded-circle
+          w-50
+          mx-auto
+          mt-5
+        "
+      >
+        <div class="d-flex align-items-center justify-content-center">
+          <img
+            class="coin-image w-50 h-50"
+            src="../images/coin.gif"
+            alt="coin.gif"
+          />
+        </div>
+        <div class="d-flex align-items-center justify-content-center p-5">
+          <input
+            type="button"
+            class="btn btn-primary"
+            id="coin-btn"
+            value="Take coin"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container vh-100">
+      <div class="row pt-3">
+        <div class="d-flex justify-content-around">
+          <div class="container__cup col-3">
+            <div class="text-center h3">
+              <img
+                class="cup w-100"
+                id="cup-image-1"
+                src="../images/cup.png"
+                alt="cup.png"
+              />
+              Cup no.1
+            </div>
+            <input
+              type="radio"
+              class="radio-cup w-100 d-block"
+              name="cups"
+              id="cup-1"
+            />
+          </div>
+          <div class="container__cup col-3 offset-sm-1">
+            <div class="text-center h3">
+              <img
+                class="cup w-100"
+                id="cup-image-2"
+                src="../images/cup.png"
+                alt="cup.png"
+              />
+              Cup no.2
+            </div>
+            <input
+              type="radio"
+              class="radio-cup w-100 d-block"
+              name="cups"
+              id="cup-2"
+            />
+          </div>
+          <div class="container__cup col-3 offset-sm-1">
+            <div class="text-center h3">
+              <img
+                class="cup w-100"
+                id="cup-image-3"
+                src="../images/cup.png"
+                alt="cup.png"
+              />
+              Cup no.3
+            </div>
+            <input
+              type="radio"
+              class="radio-cup w-100 d-block"
+              name="cups"
+              id="cup-3"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <h1 class="text-center text-dark mb-3">Pick a Cup n Win</h1>
+        <h2 id="result" class="result text-center text-success mb-3">
+          Please pick a cup!
+        </h2>
+        <input
+          type="button"
+          value="Confirm"
+          id="confirm-btn"
+          class="btn btn-outline-primary"
+        />
+      </div>
+      <div class="row mt-3">
+        <input
+          type="button"
+          value="Try Again"
+          id="try-btn"
+          class="btn btn-outline-primary"
+        />
+      </div>
+    </div>
+
+    <script src="./../dist/app.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
