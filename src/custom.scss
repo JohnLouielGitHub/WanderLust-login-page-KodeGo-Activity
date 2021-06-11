@@ -259,3 +259,26 @@ body {
     height: 150px;
   }
 }
+
+// .image {
+//   transform: scaleY(-1);
+//   -webkit-animation: spin 1s linear 1;
+//   -moz-animation: spin 1s linear 1;
+//   animation: spin 1s linear 1;
+// }
+// @-moz-keyframes spin {
+//   100% {
+//     -moz-transform: rotate(90deg);
+//   }
+// }
+// @-webkit-keyframes spin {
+//   100% {
+//     -webkit-transform: scaleY(-1);
+//   }
+// }
+// @keyframes spin {
+//   100% {
+//     -webkit-transform: scaleY(-1);
+//     transform: rotate(90deg);
+//   }
+// }
