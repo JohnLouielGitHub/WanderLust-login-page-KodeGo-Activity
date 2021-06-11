@@ -8382,6 +8382,16 @@ body {
   z-index: -1;
 }
 
+@media screen and (min-width: 768px) {
+  .bg-line {
+    height: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .bg-line {
+    height: 25%;
+  }
+}
 .bg-left {
   position: absolute;
   background: linear-gradient(to left, rgba(252, 252, 252, 0) 10%, #ebb2b2 120%);
@@ -8450,4 +8460,23 @@ body {
 .btn:hover {
   transform: scale(1.1);
   transition: all 0.1s;
+}
+
+.logo_login {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .logo_login {
+    width: 130px;
+    height: 130px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .logo_login {
+    width: 150px;
+    height: 150px;
+  }
 }
