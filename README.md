@@ -1,3 +1,2 @@
-# kodego-activity-login-game
-#https://johnlouielgithub.github.io/kodego-activity-login-game/public/mygame.html
-#https://johnlouielgithub.github.io/kodego-activity-login-game/public/login.html
+# WanderLust Login Page Activity
+  to visit click this link https://johnlouielgithub.github.io/wanderlust-login-page-activity/public/login.html
