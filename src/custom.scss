@@ -92,15 +92,6 @@ body {
   height: 30px;
 }
 
-.text {
-  display: none;
-  visibility: hidden;
-  height: 0;
-  width: 0;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
-}
-
 .logo:hover {
   transform: scale(1.2);
   transition: all 0.2s;
