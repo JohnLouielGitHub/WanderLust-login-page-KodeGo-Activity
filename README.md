@@ -9,7 +9,7 @@ https://johnlouielgithub.github.io/wanderlust-login-page-activity/public/login.h
 <b>Static Login Page Web Design
 
 <p align="center">
-  <img width="100%" src="wanderlust-login-page-activity/images/Wanderlust.JPG?raw=true">
+  <img width="100%" src="https://raw.githubusercontent.com/JohnLouielGitHub/wanderlust-login-page-activity/main/images/Wanderlust.JPG">
 </p>
 
 ## 🙋‍♂️ AboutThe Project
